@@ -22,7 +22,7 @@ function getResult(userChoice, computerChoice) {
         (userChoice === 'scissors' && computerChoice === 'paper')
     ) {
         return 'You win!';
-    } else {
+    } else { 
         return 'You lose!';
     }
 }
