@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Website</title>
+    <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Dynamic Website</h1>
-    </header>
-    <main>
-        <button id="changeTextBtn">Click me to change text!</button>
-        <p id="dynamicText">This text will change dynamically.</p>
-    </main>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div id="choices">
+            <button class="choice" data-choice="rock">✊</button>
+            <button class="choice" data-choice="paper">✋</button>
+            <button class="choice" data-choice="scissors">✌️</button>
+        </div>
+        <p id="result">Make your choice!</p>
+    </div>
     <script src="scripts.js"></script>
 </body>
 </html>
+
 
